@@ -1,0 +1,124 @@
+.underline{
+  color: #009FDA;
+}
+
+.sub-title{
+  color: #006699;
+}
+
+#footer {
+    background-color: #F4F4F4;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding: 15px; 
+}
+
+
+/*====================================================================*/
+/*PARALLAX START*/
+
+body {
+  font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
+  font-weight: 200;
+  font-size: 20px;
+}
+
+.parallax-background {
+  /*background-color: #0078A0;*/
+  height: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
+  /*position: fixed;*/
+  width: 100%;
+}
+
+.intro-text {
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 15%;
+}
+.parallax-content {
+  max-width: 100%;
+  position: relative;
+  /*top: 500px;*/
+  padding: 100px 150px 100px 150px;
+  font-size: 20px;
+  background-color: #fff;
+}      
+
+/*PARALLAX END*/
+/*====================================================================*/
+
+
+
+
+/*====================================================================*/
+/*3D CARD FLIP START*/
+
+.card {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -webkit-perspective: 5000;
+  perspective: 5000; 
+}
+
+.card .container {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-transition: 0.6s;
+  transition: 0.6s; 
+}
+
+.card .container .front, .card .container .back {
+  width: 30%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.card .container .front .row, .card .container .front .column, .card .container .front .columns, .card .container .back .row, .card .container .back .column, .card .container .back .columns {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden; 
+}
+
+.card .container .front {
+  z-index: 2; 
+}
+
+.card .container .back {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  overflow-y: scroll;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg); 
+}
+
+.card .container:hover {
+  -webkit-transform: rotate3d(0, 1, 0, 180deg);
+  transform: rotate3d(0, 1, 0, 180deg); 
+}
+
+.card .container {
+  border: solid 1px #eeeeee; 
+}
+
+.card .container .front, .card .container .back {
+  padding: 1em; 
+}
+
+.card.square .container {
+  width: 30%;
+  height: 0;
+  padding-bottom: 100%; 
+}              
+
+/*3D CARD FLIP END*/
+/*====================================================================*/
+
