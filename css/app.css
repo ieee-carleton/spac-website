@@ -24,16 +24,16 @@ body {
   font-size: 20px;
 }
 
-.parallax-background {
+#image {
   /*background-color: #0078A0;*/
-  height: 100%;
+  max-height: 100%;
+  min-width: 100%;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
   background-size: cover;
   /*position: fixed;*/
-  width: 100%;
 }
 
 .intro-text {
@@ -46,7 +46,7 @@ body {
   max-width: 100%;
   position: relative;
   /*top: 500px;*/
-  padding: 100px 150px 100px 150px;
+  padding-top: 10px;
   font-size: 20px;
   background-color: #fff;
 }      
