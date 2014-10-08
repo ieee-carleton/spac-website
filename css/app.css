@@ -14,6 +14,9 @@
     padding: 15px; 
 }
 
+.section{
+  padding: 80px 0px;
+}
 
 /*====================================================================*/
 /*PARALLAX START*/
@@ -25,7 +28,6 @@ body {
 }
 
 #image {
-  /*background-color: #0078A0;*/
   max-height: 100%;
   min-width: 100%;
   background-repeat: no-repeat;
@@ -33,23 +35,8 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
   background-size: cover;
-  /*position: fixed;*/
 }
 
-.intro-text {
-  font-size: 50px;
-  color: #fff;
-  text-align: center;
-  margin-top: 15%;
-}
-.parallax-content {
-  max-width: 100%;
-  position: relative;
-  /*top: 500px;*/
-  padding-top: 10px;
-  font-size: 20px;
-  background-color: #fff;
-}      
 
 /*PARALLAX END*/
 /*====================================================================*/
