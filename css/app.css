@@ -54,7 +54,7 @@ body {
 
 .image > h2{
   position: absolute; 
-  top: 70%; 
+  bottom: 15%; 
   left: 0; 
   padding: 20px 0px;
   min-width: 100%;
