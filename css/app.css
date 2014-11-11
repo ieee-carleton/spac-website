@@ -31,12 +31,37 @@ section {
   background:#9ed100;
 }
 
+#logo-container{
+  position: relative;
+  min-width: 100%;
+  padding: 1% 0px;
+  background-color: rgba(0, 0, 0, 0.25);
+  top: 50px;
+}
+
+#logo{
+  position: relative;
+}
+
+#header > h3{
+  position: absolute; 
+  bottom: 5%; 
+  padding: 1.5% 0px;
+  min-width: 100%;
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #F4F4F4;
+}
+
+.section{
+  padding: 150px 0px;
+}
+
 #footer {
     background-color: #F4F4F4;
     color:white;
     clear:both;
     text-align:center;
-    padding: 25px; 
+    padding-top: 15px;
 }
 
 .sub-title{
@@ -44,13 +69,6 @@ section {
 }
 
 
-
-.section{
-  padding: 100px 0px;
-}
-
-
- 
 /* background setup */
 .background {
     background-repeat:no-repeat;
@@ -85,36 +103,3 @@ section {
   vertical-align:middle;
   text-align:center;
 }
-
-#header > h1{
-  position: absolute; 
-  top: 5%; 
-  min-width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #DCDCDC;
-  padding: 2% 0px;
- }
-
-#header  > h3{
-  position: absolute; 
-  bottom: 10%; 
-  padding: 1% 0px;
-  min-width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  color: #DCDCDC;
- }
-
- .image > .arrow > h3 {
-  text-align: center;
-  font-size: 60px;
-  position: absolute;
-  color: white;
-  bottom: 5%
- }
-
-@-webkit-viewport   { width: device-width; }
-@-moz-viewport      { width: device-width; }
-@-ms-viewport       { width: device-width; }
-@-o-viewport        { width: device-width; }
-@viewport           { width: device-width; }
-
