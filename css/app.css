@@ -31,13 +31,11 @@ section {
   background:#9ed100;
 }
 
-#logo-container{
-  position: relative;
-  min-width: 100%;
-  padding: 1% 0px;
-  background-color: rgba(0, 0, 0, 0.25);
-  top: 50px;
+.top-bar {
+  background: none repeat scroll rgba(0, 0, 0, 0.3);
 }
+
+
 
 #logo{
   position: relative;

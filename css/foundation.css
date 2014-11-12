@@ -1759,7 +1759,7 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
+  height: 85px;
   line-height: 45px;
   position: relative;
   background: #333333;
@@ -1788,7 +1788,7 @@ meta.foundation-mq-topbar {
         top: -1px; } }
   .top-bar .title-area {
     position: relative;
-    margin: 0; }
+    margin: 15px; }
   .top-bar .name {
     height: 45px;
     margin: 0;
@@ -1854,7 +1854,7 @@ meta.foundation-mq-topbar {
   width: auto;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
-    padding: 0;
+    padding: 15px;
     width: 100%;
     height: auto;
     display: block;
