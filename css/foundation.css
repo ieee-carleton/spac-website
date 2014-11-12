@@ -1824,17 +1824,17 @@ meta.foundation-mq-topbar {
         height: 34px;
         line-height: 33px;
         padding: 0 40px 0 15px;
-        color: white;
+        color: black;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
           display: block;
           height: 0;
-          top: 50%;
+          top: 50%; 
           margin-top: -8px;
           right: 15px;
-          box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
+          box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white; }

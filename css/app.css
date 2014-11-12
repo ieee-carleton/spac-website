@@ -32,12 +32,15 @@ section {
 }
 
 .top-bar {
-  background: none repeat scroll rgba(0, 0, 0, 0.3);
+  background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
+
 #nav-bar-item {
-  /*margin: 0px 10px;*/
-  /*background-color: none repeat scroll rgba(0, 0, 0, 0.3);*/
+  padding: 0px 10px;
+}
+.top-bar-section{
+  padding-right: 3%;
 }
 
 #logo{
