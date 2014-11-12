@@ -35,7 +35,10 @@ section {
   background: none repeat scroll rgba(0, 0, 0, 0.3);
 }
 
-
+#nav-bar-item {
+  /*margin: 0px 10px;*/
+  /*background-color: none repeat scroll rgba(0, 0, 0, 0.3);*/
+}
 
 #logo{
   position: relative;
