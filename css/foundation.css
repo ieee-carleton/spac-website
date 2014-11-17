@@ -1759,7 +1759,7 @@ meta.foundation-mq-topbar {
 
 .top-bar {
   overflow: hidden;
-  height: 45px;
+  height: 85px;
   line-height: 45px;
   position: relative;
   background: #333333;
@@ -1788,7 +1788,7 @@ meta.foundation-mq-topbar {
         top: -1px; } }
   .top-bar .title-area {
     position: relative;
-    margin: 0; }
+    margin: 15px; }
   .top-bar .name {
     height: 45px;
     margin: 0;
@@ -1824,25 +1824,28 @@ meta.foundation-mq-topbar {
         height: 34px;
         line-height: 33px;
         padding: 0 40px 0 15px;
-        color: white;
+        color: black;
         position: relative; }
         .top-bar .toggle-topbar.menu-icon a span::after {
           content: "";
           position: absolute;
           display: block;
           height: 0;
-          top: 50%;
+          top: 50%; 
           margin-top: -8px;
           right: 15px;
-          box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white;
+          box-shadow: 0 0px 0 1px black, 0 7px 0 1px black, 0 14px 0 1px black;
           width: 16px; }
         .top-bar .toggle-topbar.menu-icon a span:hover:after {
           box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white; }
   .top-bar.expanded {
     height: auto;
-    background: transparent; }
+    background: none repeat scroll rgba(255, 255, 255, 0.5);
+        text-align: center;
+ 
+}
     .top-bar.expanded .title-area {
-      background: #333333; }
+      }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -1854,7 +1857,7 @@ meta.foundation-mq-topbar {
   width: auto;
   transition: left 300ms ease-out; }
   .top-bar-section ul {
-    padding: 0;
+    padding: 15px;
     width: 100%;
     height: auto;
     display: block;
@@ -2961,7 +2964,7 @@ meta.foundation-mq-topbar {
 
 .orbit-container {
   overflow: hidden;
-  width: 100%;
+  width: 82.5%;
   position: relative;
   background: none; }
   .orbit-container .orbit-slides-container {

@@ -27,17 +27,18 @@ body{
   color:#ffffff;
   text-align:center;
 }
-section {
-  background:#9ed100;
+
+.top-bar {
+  background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
-#logo-container{
-  position: relative;
-  min-width: 100%;
-  padding: 1% 0px;
-  background-color: rgba(0, 0, 0, 0.25);
-  top: 50px;
+#nav-bar-item {
+  padding: 0px 10px;
 }
+.top-bar-section{
+  padding-right: 3%;
+}
+
 
 #logo{
   position: relative;
@@ -53,7 +54,7 @@ section {
 }
 
 .section{
-  padding: 150px 0px;
+  padding-bottom: 150px;
 }
 
 #footer {
