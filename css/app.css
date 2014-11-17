@@ -32,13 +32,13 @@ body{
   background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
-
 #nav-bar-item {
   padding: 0px 10px;
 }
 .top-bar-section{
   padding-right: 3%;
 }
+
 
 #logo{
   position: relative;
@@ -54,7 +54,7 @@ body{
 }
 
 .section{
-  padding: 150px 0px;
+  padding-bottom: 150px;
 }
 
 #footer {
@@ -103,4 +103,8 @@ body{
     position:relative;
   vertical-align:middle;
   text-align:center;
+}
+
+.inline-slideshow{
+  display: inline-block;
 }

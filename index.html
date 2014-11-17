@@ -24,7 +24,7 @@
         <nav class="top-bar" data-topbar role="navigation">
          <ul class="title-area">
           <li class="name">
-           <h1><a href="#"><img id="logo" src="./img/spac15.png" height="80" width="140" align="center" alt="SPAC 2015"></a></h1> 
+           <h1><a href="#"><img align="left" id="logo" src="./img/spac15.png" height="80" width="140" align="center" alt="SPAC 2015"></a></h1> 
          </li> 
          <li class="toggle-topbar menu-icon">
           <strong><a href="#top"><span>Menu</span></a></strong>
@@ -52,7 +52,7 @@
     </h3>
   </div>
 
-</br>
+</br></br>
 
 <!-- ABOUT -->
 <div> 
@@ -66,35 +66,38 @@
       Our attendees include 175+ local students from the engineering and computer science streams at Carleton University, the University of Ottawa, and Algonquin College. Meet the brightest upcoming talent from Ottawa's leading schools.
     </h4> </br>
     <h4 class="large-10 large-offset-1" align="center">
-      For the last 7 years, IEEE SPAC has been organized by the IEEE Student Branches of Carleton University, University of Ottawa, and Algonquin College
+      For the last 8 years, IEEE SPAC has been organized by the IEEE Student Branches of Carleton University, University of Ottawa, and Algonquin College
     </h4> 
   </section>
 </div>
 
 <!-- WHY SPAC> -->
-<section id="why" class="section">  
-  <h1 class="sub-title" align="center">Why SPAC?</h1> 
-  <hr>
-  <h4 class="large-10 large-offset-1" align="center">
-    SPAC will give your organization an opportunity to showcase your company’s leading technologies and products to students, researchers and academics. At SPAC your organization will network with the best and brightest engineering students in Ottawa for the possibility of a co-op work term, internship, research partnership, or future career.
-  </h4> 
-</section>  
+<div>
+  <section id="why" class="section small-offset-1 small-10">  
+    <h1 class="sub-title" align="center">Why SPAC?</h1> 
+    <hr>
+    <h4 class="large-10 large-offset-1" align="center">
+      SPAC will give your organization an opportunity to showcase your company’s leading technologies and products to students, researchers and academics. At SPAC your organization will network with the best and brightest engineering students in Ottawa for the possibility of a co-op work term, internship, research partnership, or future career.
+    </h4> 
+  </section>  
+</div>
 
 
 <!-- OUR HISTORY -->
-<section id="history" class="section">
+<section id="history" class="section small-offset-1 small-10">
   <span>
    <h1 class="sub-title" align="center">Our History</h1>     
    <h4 align="center" class="subheader"> Check out our previous year's SPAC for an idea of what SPAC 2015 will look like.</h4>
    <hr>
  </span>  
 
- <div  align="center" class="button-group">
 
-   <a target="_blank" href="http://2014.ieeespac.ca/" class="button">SPAC 2014 </a>
-   <!-- spac 2014 slideshow -->
-     <ul class="example-orbit" data-orbit>
-      <li> <img src="./img/spac2014-1.jpg" alt="slide 1" /> </li> 
+   <!-- SPAC 2014 slideshow -->
+   <a target="_blank" href="http://2014.ieeespac.ca/" class="button">Take me to SPAC 2014 </a>
+
+   <div class="orbit-container small-offset-2 medium-offset-2 large-offset-2">
+    <ul class="example-orbit" data-orbit>
+      <li class="active"> <img src="./img/spac2014-1.jpg" alt="slide 1" /> </li> 
       <li> <img src="./img/spac2014-2.jpg" alt="slide 2" /> </li> 
       <li> <img src="./img/spac2014-3.jpg" alt="slide 3" /> </li> 
       <li> <img src="./img/spac2014-4.jpg" alt="slide 4" /> </li> 
@@ -102,20 +105,22 @@
       <li> <img src="./img/spac2014-6.jpg" alt="slide 6" /> </li> 
       <li> <img src="./img/spac2014-7.jpg" alt="slide 7" /> </li> 
     </ul>
+   </div>
 
-  </br>
-
-  <a target="_blank" href="http://www.ieeespac.ca/2013/" class="button">SPAC 2013</a>
-   <!-- spac 2013 slideshow -->
-     <ul class="example-orbit" data-orbit>
-      <li> <img src="./img/spac2013-1.jpg" alt="slide 1" /> </li> 
+   </br>
+   <!-- SPAC 2013 slideshow -->
+  <a target="_blank" href="http://www.ieeespac.ca/2013/" class="button">Take me to SPAC 2013</a>
+   <div class="orbit-container small-offset-2 medium-offset-2 large-offset-2">
+    <ul class="example-orbit" data-orbit>
+      <li class="active"> <img src="./img/spac2013-1.jpg" alt="slide 1" /> </li> 
       <li> <img src="./img/spac2013-3.jpg" alt="slide 3" /> </li> 
       <li> <img src="./img/spac2013-4.jpg" alt="slide 4" /> </li> 
       <li> <img src="./img/spac2013-5.jpg" alt="slide 5" /> </li> 
       <li> <img src="./img/spac2013-6.jpg" alt="slide 6" /> </li> 
     </ul>
+   </div>
+ 
 
- </div>
 </section> 
 
 </br>
@@ -144,6 +149,8 @@
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
   <script src="foundation.topbar.js"></script>
+  <script src="foundation.orbit.js"></script>
+
   <script>
   $(document).foundation();
   </script>

@@ -1840,9 +1840,12 @@ meta.foundation-mq-topbar {
           box-shadow: 0 0px 0 1px white, 0 7px 0 1px white, 0 14px 0 1px white; }
   .top-bar.expanded {
     height: auto;
-    background: transparent; }
+    background: none repeat scroll rgba(255, 255, 255, 0.5);
+        text-align: center;
+ 
+}
     .top-bar.expanded .title-area {
-      background: #333333; }
+      }
     .top-bar.expanded .toggle-topbar a {
       color: #888888; }
       .top-bar.expanded .toggle-topbar a::after {
@@ -2961,7 +2964,7 @@ meta.foundation-mq-topbar {
 
 .orbit-container {
   overflow: hidden;
-  width: 100%;
+  width: 82.5%;
   position: relative;
   background: none; }
   .orbit-container .orbit-slides-container {
