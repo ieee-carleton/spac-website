@@ -101,10 +101,10 @@
 
    <div class="orbit-container small-offset-2 medium-offset-2 large-offset-2">
     <ul class="example-orbit" data-orbit>
-      <li class="active"> <img src="./img/spac2014-1.jpg" alt="slide 1" /> </li> 
-      <li> <img src="./img/spac2014-2.jpg" alt="slide 2" /> </li> 
       <li> <img src="./img/spac2014-3.jpg" alt="slide 3" /> </li> 
       <li> <img src="./img/spac2014-4.jpg" alt="slide 4" /> </li> 
+      <li> <img src="./img/spac2014-1.jpg" alt="slide 1" /> </li> 
+      <li> <img src="./img/spac2014-2.jpg" alt="slide 2" /> </li> 
       <li> <img src="./img/spac2014-5.jpg" alt="slide 5" /> </li> 
       <li> <img src="./img/spac2014-6.jpg" alt="slide 6" /> </li> 
       <li> <img src="./img/spac2014-7.jpg" alt="slide 7" /> </li> 
@@ -116,9 +116,9 @@
   <a target="_blank" href="http://www.ieeespac.ca/2013/" class="button">Take me to SPAC 2013</a>
    <div class="orbit-container small-offset-2 medium-offset-2 large-offset-2">
     <ul class="example-orbit" data-orbit>
-      <li class="active"> <img src="./img/spac2013-1.jpg" alt="slide 1" /> </li> 
-      <li> <img src="./img/spac2013-3.jpg" alt="slide 3" /> </li> 
       <li> <img src="./img/spac2013-4.jpg" alt="slide 4" /> </li> 
+      <li> <img src="./img/spac2013-1.jpg" alt="slide 1" /> </li> 
+      <li> <img src="./img/spac2013-3.jpg" alt="slide 3" /> </li> 
       <li> <img src="./img/spac2013-5.jpg" alt="slide 5" /> </li> 
       <li> <img src="./img/spac2013-6.jpg" alt="slide 6" /> </li> 
     </ul>
@@ -152,11 +152,13 @@
 
   <script src="js/vendor/jquery.js"></script>
   <script src="js/foundation.min.js"></script>
-  <script src="foundation.topbar.js"></script>
-  <script src="foundation.orbit.js"></script>
-
+  <script src="js/foundation.topbar.js"></script>
+  <script src="js/foundation.orbit.js"></script>
   <script>
   $(document).foundation();
+   $(document).foundation('orbit', {
+          timer_speed: 10,
+      });
   </script>
 </body>
 
