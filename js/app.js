@@ -1,5 +1,6 @@
 /* fix vertical when not overflow
 call fullscreenFix() if .fullscreen content changes */
+
 function fullscreenFix(){
     var h = $('body').height();
     // set .fullscreen height
