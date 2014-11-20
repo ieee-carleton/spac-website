@@ -12,7 +12,14 @@
     background-position:50% 50%;
     /* ie8- graceful degradation */
     background-position:50% 50%\9 !important;
-    background-size: cover; 
+    /*background-size: cover; */
+}
+
+/* fullscreen setup */
+html, body {
+    /* give this to all tags from html to .fullscreen */
+    height:100%;
+    margin: 0;
 }
 
 .not-fullscreen {
@@ -27,8 +34,19 @@
 .not-fullscreen .content-a,
 .fullscreen.not-overflow,
 .fullscreen.not-overflow .content-a {
-    height:10%;
+    height:100%;
     overflow:hidden;
+}
+
+/* content centering styles */
+.content-a {
+  display:table;
+}
+.content-b {
+  display:table-cell;
+  position:relative;
+  vertical-align:middle;
+  text-align:center;
 }
 
 
@@ -38,12 +56,6 @@ body {
   font-size: 20px;
 }
 
-/* fullscreen setup */
-html, body {
-    /* give this to all tags from html to .fullscreen */
-    height:100%;
-    margin: 0;
-}
 
 /* visual styles */
 body{
