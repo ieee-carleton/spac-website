@@ -41,14 +41,8 @@ html, body {
 /* content centering styles */
 .content-a {
   display:table;
-}
-.content-b {
-  display: table-cell;
-  position: relative;
   vertical-align: middle;
-  text-align: center;
 }
-
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
