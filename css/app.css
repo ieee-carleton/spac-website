@@ -43,10 +43,10 @@ html, body {
   display:table;
 }
 .content-b {
-  display:table-cell;
-  position:relative;
-  vertical-align:middle;
-  text-align:center;
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+  text-align: center;
 }
 
 
@@ -65,6 +65,10 @@ body{
   line-height:100px;
   color:#ffffff;
   text-align:center;
+}
+
+#why{
+  vertical-align: middle;
 }
 
 .top-bar {
