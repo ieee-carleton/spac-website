@@ -1734,9 +1734,11 @@ meta.foundation-mq-topbar {
 /* Wrapped around .top-bar to contain to grid width */
 .contain-to-grid {
   width: 100%;
-  background: #333333; }
+  background: none repeat scroll rgba(255, 255, 255, 0.5) }
   .contain-to-grid .top-bar {
-    margin-bottom: 0; }
+    margin-bottom: 0;
+
+     }
 
 .fixed {
   width: 100%;
@@ -1762,7 +1764,7 @@ meta.foundation-mq-topbar {
   height: 85px;
   line-height: 45px;
   position: relative;
-  background: #333333;
+  background: none repeat scroll rgba(240, 240, 240, 0.8);
   margin-bottom: 0; }
   .top-bar ul {
     margin-bottom: 0;
@@ -1870,7 +1872,7 @@ meta.foundation-mq-topbar {
     height: 1px;
     width: 100%; }
   .top-bar-section ul li {
-    background: #333333; }
+    background: none repeat scroll rgba(255, 255, 255, 0.5); }
     .top-bar-section ul li > a {
       display: block;
       width: 100%;
@@ -2037,8 +2039,9 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
-    overflow: visible; }
+    background: none repeat scroll rgba(240, 240, 240, 0.8);
+    min-width: 100%;
+    overflow: hidden;}
     .top-bar:before, .top-bar:after {
       content: " ";
       display: table; }

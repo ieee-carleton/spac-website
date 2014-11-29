@@ -19,9 +19,10 @@
     </head>
 
     <body>
-      <!-- COVER -->
-    <div id="header" align="left" class="fullscreen background parallax" style="background-image:url(./img/cover.jpg);" data-img-width="1600" data-img-height="1064" data-diff="100">
-        <nav class="top-bar" data-topbar role="navigation">
+
+    <!-- TOPBAR -->
+    <div class="contain-to-grid sticky">
+        <nav class="top-bar" data-topbar  data-options="sticky_on: [small, medium, large]"  role="navigation">
          <ul class="title-area">
           <li class="name">
            <h1><a href="#"><img align="left" id="logo" src="./img/spac15.png" height="80" width="140" align="center" alt="SPAC 2015"></a></h1> 
@@ -47,6 +48,10 @@
             </ul> 
           </section> 
         </nav>
+      </div>
+
+    <!-- COVER -->
+    <div id="header" align="left" class="fullscreen background parallax" style="background-image:url(./img/cover.jpg);" data-img-width="1600" data-img-height="1064" data-diff="100">
       <h3 align="center">
       Thursday, January 29, 2015 </br>
       6:00PM @ Hellenic Meeting and Reception Centre </br></br>
@@ -174,6 +179,23 @@
   <script src="js/foundation.orbit.js"></script>
   <script src="js/app.js"></script>
   <script>
+
+  Foundation.libs.topbar.is_sticky = function (topbar, topbarContainer, settings) {
+   var sticky = topbarContainer.hasClass(settings.sticky_class);
+   if (sticky && settings.sticky_on === 'all') {
+      return true;
+   }
+   if (sticky && this.small() && settings.sticky_on.indexOf('small') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && !matchMedia(Foundation.media_queries.medium).matches && !matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   if (sticky && this.medium() && settings.sticky_on.indexOf('medium') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && matchMedia(Foundation.media_queries.medium).matches && !matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   if (sticky && this.large() && settings.sticky_on.indexOf('large') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && matchMedia(Foundation.media_queries.medium).matches && matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   return false;
+  }
   $(document).foundation();
    $(document).foundation('orbit', {
           timer_speed: 10,

@@ -65,7 +65,7 @@ body{
   vertical-align: middle;
 }
 
-.top-bar {
+.top-bar .contain-to-grid {
   background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 

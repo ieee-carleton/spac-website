@@ -411,7 +411,23 @@
         self.update_sticky_positioning();
       });
     },
-
+is_sticky: function (topbar, topbarContainer, settings) {
+var sticky = topbarContainer.hasClass(settings.sticky_class);
+   if (sticky && settings.sticky_on === 'all') {
+      return true;
+   }
+   if (sticky && this.small() && settings.sticky_on.indexOf('small') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && !matchMedia(Foundation.media_queries.medium).matches && !matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   if (sticky && this.medium() && settings.sticky_on.indexOf('medium') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && matchMedia(Foundation.media_queries.medium).matches && !matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   if (sticky && this.large() && settings.sticky_on.indexOf('large') >= 0) {
+       if (matchMedia(Foundation.media_queries.small).matches && matchMedia(Foundation.media_queries.medium).matches && matchMedia(Foundation.media_queries.large).matches) { return true; }
+   }
+   return false;
+}
+  
     update_sticky_positioning: function() {
       var klass = '.' + this.settings.sticky_class,
           $window = this.S(window),
@@ -442,4 +458,5 @@
 
     reflow : function () {}
   };
+
 }(jQuery, window, window.document));
