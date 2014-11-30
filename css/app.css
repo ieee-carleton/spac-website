@@ -5,6 +5,10 @@
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
+#about { padding-top: 50px; }
+/*#why { padding-top: 160px; }*/
+
+/*-------------------*/
 /* background setup */
 .background {
     background-repeat:no-repeat;
@@ -12,18 +16,12 @@
     background-position:50% 50%;
     /* ie8- graceful degradation */
     background-position:50% 50%\9 !important;
-    /*background-size: cover; */
 }
 
 /* fullscreen setup */
 html, body {
     /* give this to all tags from html to .fullscreen */
     height:100%;
-    margin: 0;
-}
-
-.not-fullscreen {
-    height:50%;
 }
 .fullscreen,
 .content-a {
@@ -41,8 +39,27 @@ html, body {
 /* content centering styles */
 .content-a {
   display:table;
-  vertical-align: middle;
 }
+.content-b {
+  display:table-cell;
+    position:relative;
+  vertical-align:middle;
+  text-align:center;
+}
+
+/* visual styles */
+body{
+    margin:0;
+    font-family:sans-serif;
+    font-size:28px;
+    line-height:100px;
+    color:#ffffff;
+    text-align:center;
+}
+.not-fullscreen {
+    height:50%;
+}
+/*---------------------*/
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
@@ -50,15 +67,8 @@ body {
   font-size: 20px;
 }
 
-
-/* visual styles */
-body{
-  margin:0;
-  font-family:sans-serif;
-  font-size:28px;
-  line-height:100px;
-  color:#ffffff;
-  text-align:center;
+.para{
+  padding:15px 0; 
 }
 
 #why{
@@ -76,7 +86,6 @@ body{
   padding-right: 3%;
 }
 
-
 #logo{
   position: relative;
 }
@@ -89,11 +98,6 @@ body{
   background-color: rgba(0, 0, 0, 0.25);
   color: #F4F4F4;
 }
-
-.section{
-  padding-bottom: 200px;
-}
-
 
 #footer {
     background-color: #F4F4F4;
