@@ -1,4 +1,4 @@
-
+/*/*/*/*/*
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
@@ -71,17 +71,11 @@ body {
   padding:15px 0; 
 }
 
-#why{
-  vertical-align: middle;
-}
 
 .top-bar .contain-to-grid {
   background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
-#nav-bar-item {
-  padding: 0px 10px;
-}
 .top-bar-section{
   padding-right: 3%;
 }
@@ -114,3 +108,4 @@ body {
 .full-width-img{
   min-width: 100%;
 }
+*/*/*/*/*/
