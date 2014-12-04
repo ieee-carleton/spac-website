@@ -1,14 +1,10 @@
-/*/*/*/*/*
 @-webkit-viewport   { width: device-width; }
 @-moz-viewport      { width: device-width; }
 @-ms-viewport       { width: device-width; }
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
-#about { padding-top: 50px; }
-/*#why { padding-top: 160px; }*/
-
-/*-------------------*/
+/*-------------------
 /* background setup */
 .background {
     background-repeat:no-repeat;
@@ -84,13 +80,19 @@ body {
   position: relative;
 }
 
-#header > h3{
+#header > #info-text{
+  color: #F4F4F4;
   position: absolute; 
-  bottom: 5%; 
+  bottom: 4%; 
   padding: 1.5% 0px;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
-  color: #F4F4F4;
+}
+#info-text > h3{
+    color: #F4F4F4;
+}
+#info-text > h6{
+    color: #F4F4F4;
 }
 
 #footer {
