@@ -69,6 +69,7 @@ body {
 
 nav.top-bar.expanded{
   z-index: 1000;
+  background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
 .top-bar .contain-to-grid {
