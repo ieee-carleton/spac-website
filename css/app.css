@@ -55,7 +55,7 @@ body{
 .not-fullscreen {
     height:50%;
 }
-/*---------------------*/
+/*--------------------------------------*/
 
 body {
   font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif !important;
@@ -67,8 +67,12 @@ body {
   padding:15px 0; 
 }
 
+nav.top-bar.expanded{
+  z-index: 1000;
+}
 
 .top-bar .contain-to-grid {
+  position: relative;
   background: none repeat scroll rgba(255, 255, 255, 0.5);
 }
 
@@ -82,25 +86,25 @@ body {
 
 #header > #info-text{
   color: #F4F4F4;
-  position: absolute; 
-  bottom: 4%; 
-  padding: 1.5% 0px;
   min-width: 100%;
   background-color: rgba(0, 0, 0, 0.25);
+  position: absolute;
+  bottom: 0;
 }
-#info-text > h3{
-    color: #F4F4F4;
+
+#info-text > h3 {
+  color: #F4F4F4;
 }
 #info-text > h6{
-    color: #F4F4F4;
+  color: #F4F4F4;
 }
 
 #footer {
-    background-color: #F4F4F4;
-    color:white;
-    clear:both;
-    text-align:center;
-    padding-top: 15px;
+  background-color: #F4F4F4;
+  color:white;
+  clear:both;
+  text-align:center;
+  padding-top: 15px;
 }
 
 .sub-title{
@@ -110,4 +114,3 @@ body {
 .full-width-img{
   min-width: 100%;
 }
-*/*/*/*/*/
