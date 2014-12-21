@@ -115,3 +115,7 @@ nav.top-bar.expanded{
 .full-width-img{
   min-width: 100%;
 }
+
+#agenda-table{
+  padding: 4em 0px; 
+}
