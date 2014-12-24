@@ -4,10 +4,7 @@
 @-o-viewport        { width: device-width; }
 @viewport           { width: device-width; }
 
-#speaker-section {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+#speakers {
   background: none repeat scroll rgba(0, 140, 186, 0.8);
   position: relative;
 
@@ -37,6 +34,7 @@
 html, body {
     /* give this to all tags from html to .fullscreen */
     height:100%;
+    
 }
 .fullscreen,
 .content-a {
@@ -137,4 +135,8 @@ nav.top-bar.expanded{
 
 #agenda-table{
   padding: 4em 0px; 
+}
+
+#i-built-this-yay-me > a{
+  display: inline-block;
 }
