@@ -5,7 +5,8 @@
 @viewport           { width: device-width; }
 
 #speakers{
-  background: none repeat scroll rgba(0, 140, 186, 0.8);
+  background: none repeat scroll rgba(224, 224, 224, 0.8);
+  
   position: relative;
 }
 
