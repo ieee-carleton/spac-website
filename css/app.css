@@ -13,7 +13,11 @@
 #patrons{
   background: none repeat scroll rgba(244, 244, 244, 0.8);
   position: relative;
+}
 
+#ticket{
+  background: none repeat scroll rgba(240, 240, 240, 0.2);
+  position: relative;
 }
 
 #speaker-section > h6{
